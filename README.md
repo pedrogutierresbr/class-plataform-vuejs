@@ -30,6 +30,9 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 # Clone este repositório
 $ git clone https://github.com/pedrogutierresbr/class-plataform-vuejs.git
 
+# Instalar dependências
+$ npm install
+
 # Acesse a pasta do projeto no seu terminal/cmd
 $ cd class-plataform-vuejs
 
@@ -40,7 +43,7 @@ $ npm run serve
 
 ```
 
-#### Rodando o servidor com a informção do projeto
+#### Rodando o servidor com as informações do projeto
 
 ```bash
 
