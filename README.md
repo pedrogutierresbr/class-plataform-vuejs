@@ -2,18 +2,15 @@
 
 ## Sobre o projeto
 
-Este é um sistema que replica a experiência de um carrinho de compras de e-commerce, trazendo todas a etapas mais importantes que um usuário passa durante sua jornada em busca de um produto, com foco no frontend da aplicação.
+Este é um sistema que replica a experiência de uma plataforma de cursos, disponibilizando navegação entre os cursos e aulas para que o usuário tenha uma experiência amigável e de fácil utilização. O foco foi a prática com o framework VueJs e lib Vue Router. Foi utilizado uma JSON como fonte de informações que simula uma API.
 
 ## Funcionalidades
 
 -   O projeto possibilita ao usuário:
 
-    -   Visualizar todos os produtos disponíveis
-    -   Acessar todas as informações de cada produto
-    -   Adicionar o produto ao carrinho
-    -   Acessar carrinho de compras com todos os produtos adicionados
-    -   Visualizar total da compra
-    -   Remover produtos do carrinho
+    -   Visualizar cumentários de usuários sobre a plataforma
+    -   Acessar cursos disponíveis na plataforma
+    -   Assistir aulas de cada curso dentro da plataforma
 
 ## Como executar o projeto
 
@@ -26,23 +23,37 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 -   [Git](https://git-scm.com)
 -   [VSCode](https://code.visualstudio.com/)
 
-Além de possuir a extensão Live Server em seu editor de código:
-
--   [LiveServer](https://github.com/ritwickdey/vscode-live-server-plus-plus)
-
 #### Rodando a aplicação web
 
 ```bash
 
 # Clone este repositório
-$ git clone git@github.com:pedrogutierresbr/shopping-cart-vuejs.git
+$ git clone https://github.com/pedrogutierresbr/class-plataform-vuejs.git
 
 # Acesse a pasta do projeto no seu terminal/cmd
-$ cd shopping-cart
+$ cd class-plataform-vuejs
 
-# Execute a aplicação utilizando a extensão Live Server
+# Execute a aplicação utilizando
+$ npm run serve
 
-# A aplicação será aberta na porta:5500
+# A aplicação será aberta na porta:8080
+
+```
+
+#### Rodando o servidor com a informção do projeto
+
+```bash
+
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd class-plataform-vuejs
+
+# Acesse a pasta da api local
+$ cd api
+
+# Execute a api utilizando
+$ json-server --watch api.json
+
+# A aplicação será aberta na porta:3000
 
 ```
 
@@ -54,6 +65,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 -   CSS
 -   JavaScript
 -   Vue.JS
+-   Vue Router
+-   JSON Server
 
 ## Licença
 
@@ -66,33 +79,3 @@ Feito por Pedro Gutierres [Entre em contato!](https://www.linkedin.com/in/pedro-
 [Inglês 🇺🇸](./README-en.md)
 
 ---
-
-# class-plataform-vuejs
-
-## Project setup
-
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-
-```
-npm run build
-```
-
-### Lints and fixes files
-
-```
-npm run lint
-```
-
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
