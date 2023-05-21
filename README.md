@@ -79,6 +79,6 @@ Feito por Pedro Gutierres [Entre em contato!](https://www.linkedin.com/in/pedro-
 
 ## Versões do README
 
-[Inglês 🇺🇸](./README-en.md)
+[Inglês](./README-en.md)
 
 ---
